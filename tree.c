@@ -17,7 +17,7 @@ node *root(int value){            //call at the time of initilisation
 	ptr-> data = value;
 	ptr-> father = 0;
 	ptr-> lptr = 0;
-	ptr-> lptr = 0;
+	ptr-> rptr = 0;
 	return ptr;
 }
 void insert(int x, node *ptr){
